@@ -20,13 +20,10 @@ public class proSkillTree {
         for(int i=0; i<N; i++){
             s2[i] = st.nextToken();
         }
-        Solution s = new Solution();
-        System.out.println(s.solution(s1, s2));
+        System.out.println(solution(s1, s2));
 //        s.solution(s1, s2);
     }
-}
-class Solution {
-    public int solution(String skill, String[] skill_trees) {
+    public static int solution(String skill, String[] skill_trees) {
         int answer = 0; // count 수
         Queue<Character> skillQueue = new LinkedList<>();
         ArrayList<Boolean> arr = new ArrayList<>();
@@ -61,3 +58,5 @@ class Solution {
         return answer;
     }
 }
+
+
