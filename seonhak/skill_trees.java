@@ -4,91 +4,106 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution_49993 {
-	
+
 	public static void main(String[] args) {
-		
+
+//		í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤
 //		"CBD" ["CAD"] 0
 //		"CBD" ["AEF", "ZJW"] 2
 //		"REA" ["REA", "POA"] 1
 //		"CBDK" ["CB", "CXYB", "BD", "AECD", "ABC", "AEX", "CDB", "CBKD", "IJCB", "LMDK"] 4
 //		"BDC" ["AAAABACA"] 0
 //		"CBD" ["C", "D", "CB", "BDA"] 2
-		
+
 		String skill = "CBD";
 		String[] skill_trees = { "AEF", "ZJW" };
-//		String[] skill_trees = { "OTCADBF" };
-//
+
 		int result = solution(skill, skill_trees);
 		System.out.println(result);
 	}
 
 	public static int solution(String skill, String[] skill_trees) {
-		int answer = 0;
+		int skillTreeCnt = 0;
 
 		for (String skillTree : skill_trees) {
 
 			List<Integer> indexList = new ArrayList<Integer>();
 
-			//skill ¹®ÀÚ¿­ ÃÊ±âÈ­
-			List<String> skilTreesList = new ArrayList<String>();
-			for (char ski : skillTree.toCharArray()) {
-				skilTreesList.add(String.valueOf(ski));
-			}
+			initSkillList(skill, skillTree, indexList);
 
-			//skill_trees ¹®ÀÚ¿­ ÃÊ±âÈ­
-			for (char ski : skill.toCharArray()) {
-				int addIndex = skilTreesList.indexOf(String.valueOf(ski)) + 1;
-				indexList.add(addIndex);
-			}
-
-			//skill_trees°¡ ¸ğµç ¾ø´Â skillÀÎ °æ¿ì
-			boolean isAllZero = true;
-			for (int i = 0; i < indexList.size(); i++) {
-				if (!indexList.get(i).equals(0)) {
-					isAllZero = false;
-					break;
-				}
-			}
-
-			if (isAllZero) {
-				answer++;
+			// skill_treesì— ëª¨ë‘ ì—†ëŠ” skillì¸ ê²½ìš°
+			if (isWithoutSkill(indexList)) {
+				skillTreeCnt++;
 				continue;
 			}
 
-			//Ã¹¹øÂ° skill_trees¾È¿¡ skillÀÇ Ã¹¹øÂ°°¡ ¾ø´Â °æ¿ì ¿¹¿ÜÃ³¸®
+			// ì²«ë²ˆì§¸ skill_treesì•ˆì— skillì˜ ì²«ë²ˆì§¸ê°€ ì—†ëŠ” ê²½ìš° ì˜ˆì™¸ì²˜ë¦¬
 			if (indexList.get(0) == 0)
 				continue;
 
-			//ÇÏ³ªÀÇ ½ºÅ³¸¸ ÀÖ´Â skill_tress°¡ ¾Æ´Ï¸é¼­ ¸¶Áö¸·¿¡ Ã¹ ½ºÅ³ÀÌ ÀÖ´Â °æ¿ì ¿¹¿ÜÃ³¸®
-			if (skillTree.length() != 1) {
-				if (indexList.get(0) == skillTree.length())
-					continue;
-			}
+			// í•˜ë‚˜ì˜ ìŠ¤í‚¬ë§Œ ìˆëŠ” skill_tressê°€ ì•„ë‹ˆë©´ì„œ ë§ˆì§€ë§‰ì— ì²« ìŠ¤í‚¬ì´ ìˆëŠ” ê²½ìš° ì˜ˆì™¸ì²˜ë¦¬
+			if (skillTree.length() != 1 && indexList.get(0) == skillTree.length())
+				continue;
 
-			//skill_tress index °Ë»ç ½Ã ¸¶Áö¸·¿¡ -1ÀÎ °æ¿ì¿¡ ´ëÇÑ Á¦°Å
-			for (int i = indexList.size() - 1; i > 0; i--) {
-				if (indexList.get(i) == 0) {
-					indexList.remove(i);
-				} else {
-					break;
-				}
-			}
+			initLastIndexZero(indexList);
 
-			//¿À¸§ Â÷¼øÀ¸·Î index¸¦ °¡Áö°í ÀÖ´Â Áö °Ë»ç
-			boolean isOrderBy = true;
-			for (int i = 0; i < indexList.size() - 1; i++) {
-				if (indexList.get(i + 1) - indexList.get(i) < 0) {
-					isOrderBy = false;
-					break;
-				}
-			}
-
-			if (isOrderBy)
-				answer++;
+			if (isAscendingOrder(indexList))
+				skillTreeCnt++;
 
 		}
 
-		return answer;
+		return skillTreeCnt;
+	}
+
+	// skill_tress index ê²€ì‚¬ ì‹œ ë§ˆì§€ë§‰ì— -1ì¸ ê²½ìš°ì— ëŒ€í•œ ì œê±°
+	// ë°°ì—´ ì•ˆì— 0 ì¸ ê²½ìš° ì œê±°
+	public static void initLastIndexZero(List<Integer> indexList) {
+		for (int i = indexList.size() - 1; i > 0; i--) {
+			if (indexList.get(i) == 0) {
+				indexList.remove(i);
+			} else {
+				break;
+			}
+		}
+	}
+
+	// ì˜¤ë¦„ ì°¨ìˆœìœ¼ë¡œ indexë¥¼ ê°€ì§€ê³  ìˆëŠ” ì§€ ê²€ì‚¬
+	public static boolean isAscendingOrder(List<Integer> indexList) {
+		boolean isOrderBy = true;
+		for (int i = 0; i < indexList.size() - 1; i++) {
+			if (indexList.get(i + 1) - indexList.get(i) < 0) {
+				isOrderBy = false;
+				break;
+			}
+		}
+		return isOrderBy;
+	}
+
+	public static boolean isWithoutSkill(List<Integer> indexList) {
+		boolean isAllZero = true;
+
+		for (int i = 0; i < indexList.size(); i++) {
+			if (!indexList.get(i).equals(0)) {
+				isAllZero = false;
+				break;
+			}
+		}
+
+		return isAllZero;
+	}
+
+	public static void initSkillList(String skill, String skillTree, List<Integer> indexList) {
+		// skill ë¬¸ìì—´ ì´ˆê¸°í™”
+		List<String> skilTreesList = new ArrayList<String>();
+		for (char ski : skillTree.toCharArray()) {
+			skilTreesList.add(String.valueOf(ski));
+		}
+
+		// skill_trees ë¬¸ìì—´ ì´ˆê¸°í™”
+		for (char ski : skill.toCharArray()) {
+			int addIndex = skilTreesList.indexOf(String.valueOf(ski)) + 1;
+			indexList.add(addIndex);
+		}
 	}
 
 }
