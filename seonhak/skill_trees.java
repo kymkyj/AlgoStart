@@ -7,7 +7,7 @@ public class Solution_49993 {
 
 	public static void main(String[] args) {
 
-//		Å×½ºÆ® ÄÉÀÌ½º
+//		í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤
 //		"CBD" ["CAD"] 0
 //		"CBD" ["AEF", "ZJW"] 2
 //		"REA" ["REA", "POA"] 1
@@ -31,17 +31,17 @@ public class Solution_49993 {
 
 			initSkillList(skill, skillTree, indexList);
 
-			// skill_trees¿¡ ¸ğµÎ ¾ø´Â skillÀÎ °æ¿ì
+			// skill_treesì— ëª¨ë‘ ì—†ëŠ” skillì¸ ê²½ìš°
 			if (isWithoutSkill(indexList)) {
 				skillTreeCnt++;
 				continue;
 			}
 
-			// Ã¹¹øÂ° skill_trees¾È¿¡ skillÀÇ Ã¹¹øÂ°°¡ ¾ø´Â °æ¿ì ¿¹¿ÜÃ³¸®
+			// ì²«ë²ˆì§¸ skill_treesì•ˆì— skillì˜ ì²«ë²ˆì§¸ê°€ ì—†ëŠ” ê²½ìš° ì˜ˆì™¸ì²˜ë¦¬
 			if (indexList.get(0) == 0)
 				continue;
 
-			// ÇÏ³ªÀÇ ½ºÅ³¸¸ ÀÖ´Â skill_tress°¡ ¾Æ´Ï¸é¼­ ¸¶Áö¸·¿¡ Ã¹ ½ºÅ³ÀÌ ÀÖ´Â °æ¿ì ¿¹¿ÜÃ³¸®
+			// í•˜ë‚˜ì˜ ìŠ¤í‚¬ë§Œ ìˆëŠ” skill_tressê°€ ì•„ë‹ˆë©´ì„œ ë§ˆì§€ë§‰ì— ì²« ìŠ¤í‚¬ì´ ìˆëŠ” ê²½ìš° ì˜ˆì™¸ì²˜ë¦¬
 			if (skillTree.length() != 1 && indexList.get(0) == skillTree.length())
 				continue;
 
@@ -55,8 +55,8 @@ public class Solution_49993 {
 		return skillTreeCnt;
 	}
 
-	// skill_tress index °Ë»ç ½Ã ¸¶Áö¸·¿¡ -1ÀÎ °æ¿ì¿¡ ´ëÇÑ Á¦°Å
-	// ¹è¿­ ¾È¿¡ 0 ÀÎ °æ¿ì Á¦°Å
+	// skill_tress index ê²€ì‚¬ ì‹œ ë§ˆì§€ë§‰ì— -1ì¸ ê²½ìš°ì— ëŒ€í•œ ì œê±°
+	// ë°°ì—´ ì•ˆì— 0 ì¸ ê²½ìš° ì œê±°
 	public static void initLastIndexZero(List<Integer> indexList) {
 		for (int i = indexList.size() - 1; i > 0; i--) {
 			if (indexList.get(i) == 0) {
@@ -67,7 +67,7 @@ public class Solution_49993 {
 		}
 	}
 
-	// ¿À¸§ Â÷¼øÀ¸·Î index¸¦ °¡Áö°í ÀÖ´Â Áö °Ë»ç
+	// ì˜¤ë¦„ ì°¨ìˆœìœ¼ë¡œ indexë¥¼ ê°€ì§€ê³  ìˆëŠ” ì§€ ê²€ì‚¬
 	public static boolean isAscendingOrder(List<Integer> indexList) {
 		boolean isOrderBy = true;
 		for (int i = 0; i < indexList.size() - 1; i++) {
@@ -93,13 +93,13 @@ public class Solution_49993 {
 	}
 
 	public static void initSkillList(String skill, String skillTree, List<Integer> indexList) {
-		// skill ¹®ÀÚ¿­ ÃÊ±âÈ­
+		// skill ë¬¸ìì—´ ì´ˆê¸°í™”
 		List<String> skilTreesList = new ArrayList<String>();
 		for (char ski : skillTree.toCharArray()) {
 			skilTreesList.add(String.valueOf(ski));
 		}
 
-		// skill_trees ¹®ÀÚ¿­ ÃÊ±âÈ­
+		// skill_trees ë¬¸ìì—´ ì´ˆê¸°í™”
 		for (char ski : skill.toCharArray()) {
 			int addIndex = skilTreesList.indexOf(String.valueOf(ski)) + 1;
 			indexList.add(addIndex);
