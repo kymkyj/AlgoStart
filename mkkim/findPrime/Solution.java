@@ -1,18 +1,13 @@
 package programmers;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.HashSet;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class Solution {
-    @Test
-    void solution() {
+    
+    public int solution(String str) {
         HashSet<Integer> set = new HashSet<>();
-        permutation("","17", set);
-        assertThat(set.stream().filter(this::isPrime).count()).isEqualTo(3);
-
+        permutation("",str, set);
+        return set.stream().filter(this::isPrime).count();
     }
 
     private boolean isPrime(int num) {
