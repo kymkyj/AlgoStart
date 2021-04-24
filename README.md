@@ -14,4 +14,4 @@
 |------|---|---|
 |주식가격|https://programmers.co.kr/learn/courses/30/lessons/42584|레벨2|
 |Pyramid Transition Matrix|https://leetcode.com/problems/pyramid-transition-matrix/|Medium|
-|Stack 자료구조 구현해보기|
+|Stack/Queue 자료구조 구현해보기|5/1(토)자리에서 구현|
