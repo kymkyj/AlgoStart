@@ -3,7 +3,7 @@ package com.ji.study;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution_42839 {
+public class FindPrime {
 
 	/**
 	 * 소수는 1과 자기 자신으로만 나누어지는 수임
@@ -26,17 +26,10 @@ public class Solution_42839 {
 
 		// input 숫자 초기화
 		char[] numToArr = numbers.toCharArray();
-		Integer numLength = numToArr.length;
-
-		// 노드 방문 여부 변수 초기화
-		boolean[] visit = new boolean[numLength];
-		// 노드 value 초기화
-		int[] node = initNodeValue(numToArr, numLength);
-		// 접근한 경로 value 초기화
-		int[] result = new int[numLength];
+		Integer len = numToArr.length;
 
 		// dfs를 이용한 입력된 숫자가 조합할 수 있는 모든 경우의 수 저장
-		dfs(0, node, result, visit, makeNumber);
+		dfs(0, initNodeValue(numToArr, len), new int[len], new boolean[len], makeNumber);
 
 		// 중복 숫자 제거
 		for (Integer num : makeNumber) {
