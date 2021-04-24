@@ -5,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class Solution_42839_Test {
+class FindPrimeTest {
 
 	@Test
 	void test() {
 		
-		Solution_42839 test = new Solution_42839();
+		FindPrime test = new FindPrime();
 		
 		assertEquals(3, test.solution("17"));
 		assertEquals(2, test.solution("011"));
