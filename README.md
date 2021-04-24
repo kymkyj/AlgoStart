@@ -12,5 +12,5 @@
 
 |제목|내용|설명|
 |------|---|---|
-|소수찾기|https://programmers.co.kr/learn/courses/30/lessons/42839|레벨2|
-|타겟넘버|https://programmers.co.kr/learn/courses/30/lessons/43165|레벨2|
+|주식가격|https://programmers.co.kr/learn/courses/30/lessons/42584|레벨2|
+|Pyramid Transition Matrix|https://leetcode.com/problems/pyramid-transition-matrix/|Medium|
