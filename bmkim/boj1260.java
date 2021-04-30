@@ -1,5 +1,7 @@
 package study.baekjoon;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class boj1260 {
@@ -24,7 +26,8 @@ public class boj1260 {
         }
         DFS(v);
         System.out.println();
-        //BFS(v);
+        visited = new boolean[n+1];
+        BFS(v);
 
     }
 
@@ -37,7 +40,21 @@ public class boj1260 {
             }
         }
     }
-    public static void BFS(int v) {
+    public static void BFS(int i) {
+        Queue<Integer> queue = new LinkedList<Integer>();
+        queue.offer(i);
+        visited[i] = true;
+        System.out.print(i + " ");
+        while (!queue.isEmpty()) {
+            int tmp = queue.poll();
 
+            for (int j=1; j<=n; j++) {
+                if (graph[tmp][j] == 1 && visited[j] == false) {
+                    queue.offer(j);
+                    visited[j] = true;
+                    System.out.print(j + " ");
+                }
+            }
+        }
     }
 }
