@@ -12,6 +12,6 @@
 
 |제목|내용|설명|
 |------|---|---|
-|주식가격|https://programmers.co.kr/learn/courses/30/lessons/42584|레벨2|
-|BFS와DFS|https://www.acmicpc.net/problem/1260|백준|
-|Stack/Queue 자료구조 구현해보기|5/1(토)자리에서 구현|
+|프린터|https://programmers.co.kr/learn/courses/30/lessons/42587|레벨2|
+|기능개발|https://programmers.co.kr/learn/courses/30/lessons/42586|레벨2|
+|Queue 자료구조 구현해보기|5/8(토)자리에서 구현|
