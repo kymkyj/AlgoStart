@@ -12,6 +12,10 @@
 
 |제목|내용|설명|
 |------|---|---|
-|주식가격|https://programmers.co.kr/learn/courses/30/lessons/42584|레벨2|
-|BFS와DFS|https://www.acmicpc.net/problem/1260|백준|
-|Stack/Queue 자료구조 구현해보기|5/1(토)자리에서 구현|
+|피보나치수|https://programmers.co.kr/learn/courses/30/lessons/12945|레벨2|
+|최댓값과 최솟값|https://programmers.co.kr/learn/courses/30/lessons/12939|레벨2|
+|최솟값만들기|https://programmers.co.kr/learn/courses/30/lessons/12941|레벨2|
+|숫자의표현|https://programmers.co.kr/learn/courses/30/lessons/12924|레벨2|
+|LinkedList|링크드리스트 구현하기||
+
+
