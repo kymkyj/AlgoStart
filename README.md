@@ -12,10 +12,7 @@
 
 |제목|내용|설명|
 |------|---|---|
-|피보나치수|https://programmers.co.kr/learn/courses/30/lessons/12945|레벨2|
-|최댓값과 최솟값|https://programmers.co.kr/learn/courses/30/lessons/12939|레벨2|
-|최솟값만들기|https://programmers.co.kr/learn/courses/30/lessons/12941|레벨2|
-|숫자의표현|https://programmers.co.kr/learn/courses/30/lessons/12924|레벨2|
-|LinkedList|링크드리스트 구현하기||
+|1차캐시|https://programmers.co.kr/learn/courses/30/lessons/17680|레벨2|
+|신규아이디추천|https://programmers.co.kr/learn/courses/30/lessons/72410|레벨1|
 
 
