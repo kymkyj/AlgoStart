@@ -12,8 +12,10 @@
 
 |제목|내용|설명|
 |------|---|---|
-|1차캐시|https://programmers.co.kr/learn/courses/30/lessons/17680|레벨2|
-|신규아이디추천|https://programmers.co.kr/learn/courses/30/lessons/72410|레벨1|
-|List vs Set vs Map|HashSet, HashMap 구현 및 차이점 정리|
+|바이러스|https://www.acmicpc.net/problem/2606|백준 CLASS3|
+|1로만들기|https://www.acmicpc.net/problem/1463|백준 CLASS3|
+|잃어버린괄호|https://www.acmicpc.net/problem/1541|백준 CLASS3|
+
+
 
 
