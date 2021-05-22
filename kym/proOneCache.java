@@ -9,6 +9,9 @@ public class proOneCache {
     public int solution(int cacheSize, String[] cities) {
         int answer = 0; // 캐시 수행시간 카운트
         String [] cache = new String[cacheSize];
+        if(cacheSize == 0){
+            return cities.length * 5;
+        }
         for(String s : cities){
             int pos = -1;
             for(int i=0; i<cacheSize; i++){
