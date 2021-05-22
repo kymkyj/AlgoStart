@@ -15,6 +15,8 @@
 |바이러스|https://www.acmicpc.net/problem/2606|백준 CLASS3|
 |1로만들기|https://www.acmicpc.net/problem/1463|백준 CLASS3|
 |잃어버린괄호|https://www.acmicpc.net/problem/1541|백준 CLASS3|
+|쇠막대기|https://www.acmicpc.net/problem/10799|백준|
+
 
 
 
