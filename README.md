@@ -12,10 +12,9 @@
 
 |제목|내용|설명|
 |------|---|---|
-|바이러스|https://www.acmicpc.net/problem/2606|백준 CLASS3|
-|1로만들기|https://www.acmicpc.net/problem/1463|백준 CLASS3|
-|잃어버린괄호|https://www.acmicpc.net/problem/1541|백준 CLASS3|
-|쇠막대기|https://www.acmicpc.net/problem/10799|백준|
+|유기농배추|https://www.acmicpc.net/problem/1012|백준 CLASS3|
+|숨바꼭질|https://www.acmicpc.net/problem/1697|백준 CLASS3|
+|ATM|https://www.acmicpc.net/problem/11399|백준 CLASS3|
 
 
 
