@@ -12,6 +12,13 @@
 
 |제목|내용|설명|
 |------|---|---|
-|주식가격|https://programmers.co.kr/learn/courses/30/lessons/42584|레벨2|
-|Pyramid Transition Matrix|https://leetcode.com/problems/pyramid-transition-matrix/|Medium|
-|Stack/Queue 자료구조 구현해보기|5/1(토)자리에서 구현|
+|유기농배추|https://www.acmicpc.net/problem/1012|백준 CLASS3|
+|숨바꼭질|https://www.acmicpc.net/problem/1697|백준 CLASS3|
+|ATM|https://www.acmicpc.net/problem/11399|백준 CLASS3|
+|동적계획법|각자 블로그 정리/README.md 파일 각자 폴더에 작성|
+
+
+
+
+
+
