@@ -12,10 +12,11 @@
 
 |제목|내용|설명|
 |------|---|---|
-|유기농배추|https://www.acmicpc.net/problem/1012|백준 CLASS3|
-|숨바꼭질|https://www.acmicpc.net/problem/1697|백준 CLASS3|
-|ATM|https://www.acmicpc.net/problem/11399|백준 CLASS3|
-|동적계획법|각자 블로그 정리/README.md 파일 각자 폴더에 작성|
+|주식 투자|https://www.acmicpc.net/problem/13416|백준|
+|토마토|https://www.acmicpc.net/problem/7576|백준 CLASS3|
+|듣보잡|https://www.acmicpc.net/problem/1764|백준 CLASS3|
+|문자열 폭발|https://www.acmicpc.net/problem/9935|백준 CLASS3|
+
 
 
 
