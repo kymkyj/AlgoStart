@@ -18,7 +18,7 @@
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [20955](https://www.acmicpc.net/problem/20955) | [민서의 응급 수술](https://www.acmicpc.net/problem/20955) |
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [15653](https://www.acmicpc.net/problem/15653) | [구슬 탈출 4](https://www.acmicpc.net/problem/15653) |
 
-### **❈ 중요❗️❗️ ❈** &nbsp; [출처](https://github.com/tony9402/baekjoon/blob/main/README.md)
+### **❈ 중요 ❈** &nbsp; [출처](https://github.com/tony9402/baekjoon/blob/main/README.md)
 
 이 레포는 **코딩테스트에 나올만한 유형**에 대한 문제를 모았습니다.   
 알고리즘 유형이 회사마다 다릅니다. 따라서 아래 알고리즘들을 꼭 다 안풀어도 됩니다.  
