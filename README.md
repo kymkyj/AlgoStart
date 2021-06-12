@@ -51,11 +51,6 @@
 | 21 | Trie | 트라이 | [바로가기](./trie) | 05 | 09 |
 | 22 | Dynamic Programming On Trees | 트리디피 | [바로가기](./dynamic_programming_on_trees) | 04 | 08 |
  
- 
-
- 
-[현재 진행정도](./status.md)
-
 <br><br>
 ## 모의 문제집
 
