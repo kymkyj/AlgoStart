@@ -11,7 +11,7 @@
 ****
 
 
-## **📅 일정표 (6.19~ 매주 4문제)** [출처](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
+## **📅 일정표 (6.19~ 매주 4문제)**     [출처](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
 
 | |1|2|3|4|
 |:-:|:-:|:-:|:-:|:-:|
