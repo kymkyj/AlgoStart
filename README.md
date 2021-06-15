@@ -11,12 +11,12 @@
 ****
 
 ### 6월 19일 
-| 난이도 | 번호 | 문제 이름 |
+| 번호 | 문제 이름 |
 |:------:|:----:|:---------:|
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/> | [10809](https://www.acmicpc.net/problem/10809) | [알파벳 찾기](https://www.acmicpc.net/problem/10809) |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [6497](https://www.acmicpc.net/problem/6497) | [전력난](https://www.acmicpc.net/problem/6497) |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [1991](https://www.acmicpc.net/problem/1991) | [트리 순회](https://www.acmicpc.net/problem/1991) |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [15653](https://www.acmicpc.net/problem/15653) | [구슬 탈출 4](https://www.acmicpc.net/problem/15653) |
+|[10809](https://www.acmicpc.net/problem/10809) | [알파벳 찾기](https://www.acmicpc.net/problem/10809) |
+|[11725](https://www.acmicpc.net/problem/11725) | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) |
+|[1991](https://www.acmicpc.net/problem/1991) | [트리 순회](https://www.acmicpc.net/problem/1991) |
+|[15653](https://www.acmicpc.net/problem/15653) | [구슬 탈출 4](https://www.acmicpc.net/problem/15653) |
 
 ****
 
