@@ -11,7 +11,7 @@
 ****
 
 ### 6월 19일 
-| 백준 | 문제 이름 |
+| 백준 | 문제 이름 | <br>
 [알파벳 찾기](https://www.acmicpc.net/problem/10809) <br>
 [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) <br>
 [트리 순회](https://www.acmicpc.net/problem/1991) <br>
