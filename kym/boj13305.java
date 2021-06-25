@@ -15,7 +15,6 @@ import java.util.StringTokenizer;
 // 전 주유소가 후 주유소보다 클 경우 필요한 리터만큼만 충전
 // 그게 아니라면 남은 수만큼 다 충전
 public class boj13305 {
-    static int meterSum = 0; // 총 가야할 거리
     static int[] gas, meter;
     public static Long solution(int n, int [] meter, int [] gas){
         long answer = 0;
