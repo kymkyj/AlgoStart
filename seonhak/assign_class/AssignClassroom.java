@@ -41,6 +41,7 @@ public class AssignClassroom {
 			}
 		});
 		
+		//O(NLogN)
 		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 		priorityQueue.add(lectureList.get(0).getEndTime());
 
@@ -48,7 +49,7 @@ public class AssignClassroom {
 			//(즉, Ti ≤ Sj 일 경우 i 수업과 j 수업은 같이 들을 수 있다.)
 			//위 조건에 의해서 큐안에 끝나는 시간 보다 앞에 있는 수업이라면 같이 들을 수 있게 됨
 			if (priorityQueue.peek() <= lectureList.get(i).getStartTime())
-				priorityQueue.poll();//같은 강의실 수업으로 배정
+				priorityQueue.poll();//우선순위가 높은게 먼저 poll(endTime 낮은)
 
 			//강의 끝나는 시간 큐에 저장이 새로운 강의실 배정을 하게 되는 것
 			priorityQueue.add(lectureList.get(i).getEndTime());
