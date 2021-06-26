@@ -13,7 +13,7 @@
 ### 6월 19일 
 | 백준 | 문제 이름 | <br>
 [안전 영역](https://www.acmicpc.net/problem/2468) <br>
-[구간합구하기5](hhttps://www.acmicpc.net/problem/11660) <br>
+[구간합구하기5](https://www.acmicpc.net/problem/11660) <br>
 [동전1](https://www.acmicpc.net/problem/2293) <br>
 [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
