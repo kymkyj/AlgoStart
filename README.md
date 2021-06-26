@@ -12,8 +12,8 @@
 
 ### 6월 19일 
 | 백준 | 문제 이름 | <br>
-[인구 이동](https://www.acmicpc.net/problem/16234) <br>
-[봄버맨](https://www.acmicpc.net/problem/16918) <br>
-[강의실 배정](https://www.acmicpc.net/problem/11000) <br>
-[주유소](https://www.acmicpc.net/problem/13305)
+[안전 영역](https://www.acmicpc.net/problem/2468) <br>
+[구간합구하기5](hhttps://www.acmicpc.net/problem/11660) <br>
+[동전1](https://www.acmicpc.net/problem/2293) <br>
+[단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
