@@ -10,15 +10,10 @@
 
 ****
 
-|제목|내용|설명|
-|------|---|---|
-|유기농배추|https://www.acmicpc.net/problem/1012|백준 CLASS3|
-|숨바꼭질|https://www.acmicpc.net/problem/1697|백준 CLASS3|
-|ATM|https://www.acmicpc.net/problem/11399|백준 CLASS3|
-|동적계획법|각자 블로그 정리/README.md 파일 각자 폴더에 작성|
-
-
-
-
-
+### 6월 19일 
+| 백준 | 문제 이름 | <br>
+[안전 영역](https://www.acmicpc.net/problem/2468) <br>
+[구간합구하기5](https://www.acmicpc.net/problem/11660) <br>
+[동전1](https://www.acmicpc.net/problem/2293) <br>
+[단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
