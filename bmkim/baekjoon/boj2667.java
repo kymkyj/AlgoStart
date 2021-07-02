@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class boj2667 {
     static int[] dx = {-1, 1, 0, 0};
@@ -32,6 +34,7 @@ public class boj2667 {
             for (int j=0; j<N; j++) {
                 if (graph[i][j] == 1 && !visited[i][j]) {
                     DFS(i,j);
+                    //BFS(i,j);
                     count++;
                 }
             }
@@ -59,6 +62,30 @@ public class boj2667 {
             if (nx >= 0 && nx < N && ny >=0 && ny < N) {
                 if (graph[nx][ny] == 1 && !visited[nx][ny]) {
                     DFS(nx, ny);
+                }
+            }
+        }
+    }
+
+    public static void BFS(int x, int y) {
+        Queue<Point> queue = new LinkedList<>();
+        queue.add(new Point(x, y));
+        visited[x][y] = true;
+        countDesc[count]++;
+
+        while (!queue.isEmpty()) {
+            int qx = queue.peek().x;
+            int qy = queue.peek().y;
+            queue.poll();
+
+            for (int i=0; i<4; i++) {
+                int nx = qx + dx[i];
+                int ny = qy + dy[i];
+
+                if (nx >= 0 && nx < N && ny >=0 && ny < N) {
+                    if (graph[nx][ny] == 1 && !visited[nx][ny]) {
+                        BFS(nx, ny);
+                    }
                 }
             }
         }
