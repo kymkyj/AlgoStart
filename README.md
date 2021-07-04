@@ -10,15 +10,10 @@
 
 ****
 
-|제목|내용|설명|
-|------|---|---|
-|유기농배추|https://www.acmicpc.net/problem/1012|백준 CLASS3|
-|숨바꼭질|https://www.acmicpc.net/problem/1697|백준 CLASS3|
-|ATM|https://www.acmicpc.net/problem/11399|백준 CLASS3|
-|동적계획법|각자 블로그 정리/README.md 파일 각자 폴더에 작성|
-
-
-
-
-
+### 7월 03일 
+| 백준 | 문제 이름 | <br>
+[포도주 시식](https://www.acmicpc.net/problem/2156) <br>
+[공주님을 구해라!](https://www.acmicpc.net/problem/17836) <br>
+[출석체크](https://www.acmicpc.net/problem/20438) <br>
+[징검다리 건너기](https://www.acmicpc.net/problem/21317)
 
