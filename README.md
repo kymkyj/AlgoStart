@@ -11,10 +11,9 @@
 ****
 
 ### 7월 03일 
-```
+
 * 백준 알고리즘 3문제
 * BFS 내용 정리 자유
-```
 > [늑대와 양](https://www.acmicpc.net/problem/16956) <br>
 > [스타트링크](https://www.acmicpc.net/problem/5014) <br>
 > [로봇청소기](https://www.acmicpc.net/problem/4991)
