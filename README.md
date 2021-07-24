@@ -32,5 +32,6 @@
 * 브루트 포스
 > [토너먼트](https://www.acmicpc.net/problem/1057) <br>
 > [일곱 난쟁이](https://www.acmicpc.net/problem/2309) <br>
-> [소문난 칠공주](https://www.acmicpc.net/problem/1941)
+> [소문난 칠공주](https://www.acmicpc.net/problem/1941) <br>
+> [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
 
