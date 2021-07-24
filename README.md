@@ -29,8 +29,8 @@
 ### 7월 24일 
 
 * 백준 알고리즘 3문제
-* BFS 내용 정리 자유
-> [늑대와 양](https://www.acmicpc.net/problem/16956) <br>
-> [스타트링크](https://www.acmicpc.net/problem/5014) <br>
-> [로봇청소기](https://www.acmicpc.net/problem/4991)
+* 브루트 포스
+> [토너먼트](https://www.acmicpc.net/problem/1057) <br>
+> [일곱 난쟁이](https://www.acmicpc.net/problem/2309) <br>
+> [소문난 칠공주](https://www.acmicpc.net/problem/1941)
 
