@@ -17,9 +17,8 @@
 * 브루트 포스
 * 큐/스택 자료구조
 * 그래프 탐색(DFS/BFS)
-* 완전탐색
+* 탐색
 * 동적프로그래밍
-* 그래프
 
 > 21/07/24 알고리즘 진행방식 변경
 > 커리큘럼 별로 해당 내용에 대한 개념상기와 그에 관련한 문제위주로 숙달하는 방식 <br>
@@ -27,12 +26,12 @@
 
 ****
 
-### 7월 24일 
+### 7월 31일 
 
-* 백준 알고리즘 3문제
-* 브루트 포스
-> [토너먼트](https://www.acmicpc.net/problem/1057) <br>
-> [일곱 난쟁이](https://www.acmicpc.net/problem/2309) <br>
-> [소문난 칠공주](https://www.acmicpc.net/problem/1941) <br>
-> [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+* 프로그래머스 4문제
+* 탐색
+> [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) <br>
+> [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) <br>
+> [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) <br>
+> [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 
