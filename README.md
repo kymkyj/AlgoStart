@@ -26,10 +26,9 @@
 
 ****
 
-### 7월 31일 
+### 8월 14일 
 
-* 프로그래머스 4문제
-* 탐색
+* 프로그래머스 3문제
 > [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) <br>
 > [큰수만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) <br>
 > [디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) <br>
