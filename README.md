@@ -31,7 +31,6 @@
 * 프로그래머스 4문제
 * 탐색
 > [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) <br>
-> [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) <br>
-> [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) <br>
-> [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
+> [큰수만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) <br>
+> [디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) <br>
 
