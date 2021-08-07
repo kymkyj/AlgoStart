@@ -30,7 +30,7 @@
 
 * 프로그래머스 4문제
 * 탐색
-> [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) <br>
+> [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) <br>
 > [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) <br>
 > [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) <br>
 > [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
