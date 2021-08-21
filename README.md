@@ -28,8 +28,7 @@
 
 ### 8월 14일 
 
-* 프로그래머스 3문제
-> [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) <br>
-> [큰수만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) <br>
-> [디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) <br>
+* 백준 2문제, 카카오 1문제
+> [문자열 반복](https://www.acmicpc.net/problem/2675) <br>
+> [균형잡힌 세상](https://www.acmicpc.net/problem/4949) <br>
 
