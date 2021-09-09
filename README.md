@@ -26,9 +26,7 @@
 
 ****
 
-### 8월 14일 
+### 9월 11일 
 
-* 백준 2문제, 카카오 1문제
-> [문자열 반복](https://www.acmicpc.net/problem/2675) <br>
-> [균형잡힌 세상](https://www.acmicpc.net/problem/4949) <br>
+* 올리브영 경력직 코딩테스트 문제 2
 
