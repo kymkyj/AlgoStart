@@ -28,6 +28,6 @@
 
 ### 9월 11일 
 
-* [음식물피하기](https://www.acmicpc.net/problem/1743)
-* [달리기](https://www.acmicpc.net/problem/16930)
+* 백준1743 - [음식물피하기](https://www.acmicpc.net/problem/1743)
+* 백준16930 - [달리기](https://www.acmicpc.net/problem/16930)
 
