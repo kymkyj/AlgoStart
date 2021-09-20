@@ -26,9 +26,9 @@
 
 ****
 
-### 9월 11일 
+### 9월 25일 
 
-* 백준1743 - [음식물피하기](https://www.acmicpc.net/problem/1743)
-* 백준16930 - [달리기](https://www.acmicpc.net/problem/16930)
-* 백준7569 - [토마토](https://www.acmicpc.net/problem/7569)
+* 백준6603 - [로또](https://www.acmicpc.net/problem/6603)
+* 백준10773 - [제로](https://www.acmicpc.net/problem/10773)
+* 백준5622 - [다이얼](https://www.acmicpc.net/problem/5622)
 
