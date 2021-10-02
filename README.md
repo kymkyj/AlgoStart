@@ -28,7 +28,7 @@
 
 ### 10월 02일 
 
-* 백준14888 - [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
-* 백준6087 - [레이저 통신](https://www.acmicpc.net/problem/6087)
-* 2021 KAKAO BLIND RECRUITMENT - [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+* 백준1261 - [알고스팟](https://www.acmicpc.net/problem/1261)
+* 백준1967 - [트리의 지름](https://www.acmicpc.net/problem/1967)
+* 2021 KAKAO BLIND RECRUITMENT 3번 - [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 
